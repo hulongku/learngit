@@ -8,4 +8,7 @@ git add -A  添加被修改、被删除、新建的文件（即所有文件）
 git commit -m "message"  提交到仓库，message提交的描述
 
 git status  查看当前创库状态
+
 git diff  查看修改内容
+
+git log  查看提交日志

@@ -1,0 +1,11 @@
+git init  创建仓库
+
+git add <file> 添加到仓库
+git add .   添加被修改的和新建的文件，不包括被删除的文件
+git add -u  添加所有被修改的和被删除的文件（已经在暂存区的文件）,不包括新建的文件
+git add -A  添加被修改、被删除、新建的文件（即所有文件）
+
+git commit -m "message"  提交到仓库，message提交的描述
+
+git status  查看当前创库状态
+git diff  查看修改内容

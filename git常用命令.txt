@@ -11,4 +11,4 @@ git status  查看当前创库状态
 
 git diff  查看修改内容
 
-git log  查看提交日志
+git log  查看提交日志（git log --pretty=oneline，格式化输出）

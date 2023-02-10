@@ -12,3 +12,8 @@ git status  查看当前创库状态
 git diff  查看修改内容
 
 git log  查看提交日志（git log --pretty=oneline，格式化输出）
+
+git reset --hard HEAD^  回退到上个版本（上上一个版本就是HEAD^^）
+git reset --hard commit_id  回退到指定版本
+git reflog  查看命令历史
+
